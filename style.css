@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: #E7F6FF;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/* мини настройки: умножаю браузерские настройки на ноль, чтобы во всех браузерах выглядело одинаково
+Также под себе настраиваю шрифты(inter), и фон страницы */
+
+.wrapper{
+    width: 90%;
+    margin: 50px auto;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04);
+}
+
+/* Настоили фон, теперь переходим к нашей основной части */
+
+header{
+    border-bottom: 1px solid #EAEAEA;
+    padding: 30px 0;
+}
+
+header > .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__left{
+    display: flex;
+    align-items: center;
+}
+
+.header__img{
+    width: 40px;
+    height: 40px;
+}
+
+.header__img > img{
+    width: 100%;
+    height: 100%;
+}
+
+.header__title{
+    margin-left: 10px;
+}
+
+.header__title > h1{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.header__title > span {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+}
+
+.header__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__list > li {
+    margin-right: 30px;
+}
+
+.header__list > li:last-child{
+    margin-right: 0px;
+}
+
+.header__list > li > a{
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    align-items: center;
+}
+ 
+.header__icons_wrapper {
+    width: 20px;
+    height: 20px;
+}
+
+.header__icons_wrapper > img {
+    width: 100%;
+    height: 100%;
+}
+
+.header__list > li > a > span {
+    font-size: 14px;
+    margin-left: 5px;
+}
